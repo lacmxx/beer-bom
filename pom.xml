@@ -13,7 +13,7 @@
 
     <groupId>lachy.training</groupId>
     <artifactId>beer-bom</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0-SNAPSHOT</version>
 
     <packaging>pom</packaging>
 
@@ -227,5 +227,13 @@
 
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/lacmxx/beer-bom</url>
+        </repository>
+    </distributionManagement>
 
 </project>
