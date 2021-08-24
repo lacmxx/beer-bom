@@ -228,12 +228,16 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/lacmxx/beer-bom</url>
-        </repository>
-    </distributionManagement>
+    <scm>
+        <connection>scm:git:git@github.com:lacmxx/beer-bom.git</connection>
+        <developerConnection>scm:git:git@github.com:lacmxx/beer-bom.git</developerConnection>
+        <url>https://github.com/lacmxx/beer-bom.git</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <issueManagement>
+        <url>https://github.com/lacmxx/beer-bom/issues</url>
+        <system>GitHub</system>
+    </issueManagement>
 
 </project>
